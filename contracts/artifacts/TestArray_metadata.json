@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testArrayRemove",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/LibraryTest.sol": "TestArray"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/LibraryTest.sol": {
+			"keccak256": "0x11b81795a89451e41d421d80b6e7d578c98639d02e937d35907d88f2e0b13e8b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://86dcd7064773a0ed3299ce960ffde9b49273f463b27d294d57a78d90d0539419",
+				"dweb:/ipfs/QmYzymLkNgMRnk1ArbMd1aYDUNZmJVFVLRoYe4tpgprmKM"
+			]
+		}
+	},
+	"version": 1
+}
