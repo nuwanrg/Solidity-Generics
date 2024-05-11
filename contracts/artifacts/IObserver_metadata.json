@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "eventCode",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "caller",
+						"type": "address"
+					}
+				],
+				"name": "notify",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/IObserver.sol": "IObserver"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/IObserver.sol": {
+			"keccak256": "0xd339f6fd7bacb936695006bce1aeded4187f71dd334dfa29b9af4a7c822644b0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7ba8c979f8d8ed9e53075f93c296beb6afb5769c9a3ec6b1807646da5066e556",
+				"dweb:/ipfs/QmRTbQzQ9JpWK54WazhgNQAg2CCdYUBfEC2Qz4hGNjGSXU"
+			]
+		}
+	},
+	"version": 1
+}

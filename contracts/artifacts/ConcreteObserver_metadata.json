@@ -1,0 +1,91 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "eventCode",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "caller",
+						"type": "address"
+					}
+				],
+				"name": "LogNotificationReceived",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "eventCode",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "caller",
+						"type": "address"
+					}
+				],
+				"name": "notify",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ConcreteObserver.sol": "ConcreteObserver"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ConcreteObserver.sol": {
+			"keccak256": "0xb993faa3bb1480e7195465b2e22d0eacdda6e78a2a351a0da004c07e6e39323c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://818484776f74c53ee332db9463b17703e76449f67e038c3b610be3c6d68ecb36",
+				"dweb:/ipfs/QmTBJ2c5JfX7zko7e9sPbEDCbpQtCvNGjKFawn3MSHjY4E"
+			]
+		},
+		"contracts/IObserver.sol": {
+			"keccak256": "0xd339f6fd7bacb936695006bce1aeded4187f71dd334dfa29b9af4a7c822644b0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7ba8c979f8d8ed9e53075f93c296beb6afb5769c9a3ec6b1807646da5066e556",
+				"dweb:/ipfs/QmRTbQzQ9JpWK54WazhgNQAg2CCdYUBfEC2Qz4hGNjGSXU"
+			]
+		}
+	},
+	"version": 1
+}

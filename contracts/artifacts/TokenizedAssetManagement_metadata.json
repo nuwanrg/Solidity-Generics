@@ -243,20 +243,20 @@
 				"dweb:/ipfs/Qmax9WHBnVsZP46ZxEMNRQpLQnrdE4dK8LehML1Py8FowF"
 			]
 		},
-		"contracts/AssetToken2.sol": {
-			"keccak256": "0x08bdc7ef57652c3894f292edaaeac601febbe307e410285d9d95c2a9bcc89eda",
+		"contracts/AssetToken.sol": {
+			"keccak256": "0x2c95cba223b5af7ffcb7eab4d24f4a838f85548b81dbb7f5b56cc3f5da81b3d1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f543ac804d4be9327d5145870decba2cac0723edefab12168b9a6b0191927465",
-				"dweb:/ipfs/QmSk9ymZZMRtdkFGjb4bA1qyg9gGN7LgULyM914bouHseH"
+				"bzz-raw://a3fac250ca0d6695fc080c006c56b29753a3f52ab7a1345c750e3256ca7a0032",
+				"dweb:/ipfs/QmfTxQ9sGyjHxko18BdWqFKPMUXDNkzgMYuDXHBY3EhTB9"
 			]
 		},
 		"contracts/TokenizedAssetManagement.sol": {
-			"keccak256": "0x386e0a7905b5dd8e9ffbfb2d65e0946b9692c0fd05b56595826c797c43b23dc2",
+			"keccak256": "0x9bfdb2d5598e69e67fd3e25fe32ee4b1efc57f75b0d2676e32b3b7f21ca0631b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6c7286356df96a38b5c180b8c0dd3f3c0109056c603d8257581c13b64d93ec5c",
-				"dweb:/ipfs/QmWopTJMgimhpQjtsSpetXsehVWoK2735FfpCCfUVHZGz4"
+				"bzz-raw://9cdeacb88a91c9be3924bf8f5eae32534fc49e6fb1d11368781e5891a55ff21f",
+				"dweb:/ipfs/QmTc9Tiz2pbBeVaTStfoMVea4pGeRJWR68WGpfFjTwJuNF"
 			]
 		}
 	},

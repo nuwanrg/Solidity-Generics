@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract IObserver",
+						"name": "observer",
+						"type": "address"
+					}
+				],
+				"name": "addObserver",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "eventCode",
+						"type": "uint256"
+					}
+				],
+				"name": "notifyObservers",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Observable.sol": "Observable"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/IObserver.sol": {
+			"keccak256": "0xd339f6fd7bacb936695006bce1aeded4187f71dd334dfa29b9af4a7c822644b0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7ba8c979f8d8ed9e53075f93c296beb6afb5769c9a3ec6b1807646da5066e556",
+				"dweb:/ipfs/QmRTbQzQ9JpWK54WazhgNQAg2CCdYUBfEC2Qz4hGNjGSXU"
+			]
+		},
+		"contracts/Observable.sol": {
+			"keccak256": "0x498ee12315cdd0308e718220e57578b9304357b445f4305559aa2048e37406e4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8c820bc43af696bfc5867b0f950906ea422e1cc550dea41a382f4cd589315ce4",
+				"dweb:/ipfs/QmSVhXUadaUEXSw7rsbchS8BjYr3aRKeiR3CFcLkNAUeXz"
+			]
+		}
+	},
+	"version": 1
+}

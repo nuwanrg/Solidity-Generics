@@ -2,25 +2,25 @@
 pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
+import "@openzeppelin/contracts/access/AccessControl.sol";
 
-contract AssetToken is ERC20, Ownable {
+contract AssetToken is ERC20, AccessControl {
+    bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
     uint256 public immutable maxSupply;
 
     constructor(
         string memory name,
         string memory symbol,
         uint256 _maxSupply,
-       address initialOwner
-    ) ERC20(name, symbol) Ownable(initialOwner){ // Pass name and symbol to the ERC20 constructor
-        require(_maxSupply > 0, "Max supply must be greater than zero");
+        address minter
+    ) ERC20(name, symbol) {
+        grantRole(MINTER_ROLE, minter);
         maxSupply = _maxSupply * 10 ** 18;
-        _mint(initialOwner, maxSupply); // Initially mint all tokens to the owner
+        _mint(minter, maxSupply); // Initially mint all tokens to the minter
     }
 
-    // Function to mint new tokens (only callable by the owner)
-    function mint(address to, uint256 amount) external onlyOwner {
-        require(totalSupply() + amount <= maxSupply, "Max supply exceeded");
+    function mint(address to, uint256 amount) public {
+        require(hasRole(MINTER_ROLE, msg.sender), "Caller is not a minter");
         _mint(to, amount);
     }
 }
