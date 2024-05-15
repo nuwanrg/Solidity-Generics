@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.25+commit.b61c2a91"
+		"version": "0.8.20+commit.a1b79de6"
 	},
 	"language": "Solidity",
 	"output": {
@@ -175,7 +175,7 @@
 		"compilationTarget": {
 			"contracts/TokenizedAssetManagement.sol": "TokenizedAssetManagement"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -195,12 +195,20 @@
 				"dweb:/ipfs/QmTa99QHrJBn3SXDizquPBUiTxVCNKQrHgaWJhuds5Sce2"
 			]
 		},
-		"@openzeppelin/contracts/access/Ownable.sol": {
-			"keccak256": "0xff6d0bb2e285473e5311d9d3caacb525ae3538a80758c10649a4d61029b017bb",
+		"@openzeppelin/contracts/access/AccessControl.sol": {
+			"keccak256": "0xa0e92d42942f4f57c5be50568dac11e9d00c93efcb458026e18d2d9b9b2e7308",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8ed324d3920bb545059d66ab97d43e43ee85fd3bd52e03e401f020afb0b120f6",
-				"dweb:/ipfs/QmfEckWLmZkDDcoWrkEvMWhms66xwTLff9DDhegYpvHo1a"
+				"bzz-raw://46326c0bb1e296b67185e81c918e0b40501b8b6386165855df0a3f3c634b6a80",
+				"dweb:/ipfs/QmTwyrDYtsxsk6pymJTK94PnEpzsmkpUxFuzEiakDopy4Z"
+			]
+		},
+		"@openzeppelin/contracts/access/IAccessControl.sol": {
+			"keccak256": "0xb6b36edd6a2999fd243ff226d6cbf84bd71af2432bbd0dfe19392996a1d9cb41",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1fd2f35495652e57e3f99bc6c510bc5f7dd398a176ea2e72d8ed730aebc6ca26",
+				"dweb:/ipfs/QmTQV6X4gkikTib49cho5iDX3JvSQbdsoEChoDwrk3CbbH"
 			]
 		},
 		"@openzeppelin/contracts/interfaces/draft-IERC6093.sol": {
@@ -243,20 +251,36 @@
 				"dweb:/ipfs/Qmax9WHBnVsZP46ZxEMNRQpLQnrdE4dK8LehML1Py8FowF"
 			]
 		},
-		"contracts/AssetToken.sol": {
-			"keccak256": "0x2c95cba223b5af7ffcb7eab4d24f4a838f85548b81dbb7f5b56cc3f5da81b3d1",
+		"@openzeppelin/contracts/utils/introspection/ERC165.sol": {
+			"keccak256": "0x9e8778b14317ba9e256c30a76fd6c32b960af621987f56069e1e819c77c6a133",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a3fac250ca0d6695fc080c006c56b29753a3f52ab7a1345c750e3256ca7a0032",
-				"dweb:/ipfs/QmfTxQ9sGyjHxko18BdWqFKPMUXDNkzgMYuDXHBY3EhTB9"
+				"bzz-raw://1777404f1dcd0fac188e55a288724ec3c67b45288e49cc64723e95e702b49ab8",
+				"dweb:/ipfs/QmZFdC626GButBApwDUvvTnUzdinevC3B24d7yyh57XkiA"
+			]
+		},
+		"@openzeppelin/contracts/utils/introspection/IERC165.sol": {
+			"keccak256": "0x4296879f55019b23e135000eb36896057e7101fb7fb859c5ef690cf14643757b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://87b3541437c8c443ccd36795e56a338ed12855eec17f8da624511b8d1a7e14df",
+				"dweb:/ipfs/QmeJQCtZrQjtJLr6u7ZHWeH3pBnjtLWzvRrKViAi7UZqxL"
+			]
+		},
+		"contracts/AssetToken.sol": {
+			"keccak256": "0x6efe9a968d5ae7482f8dffdca33352d9128eb4921417c28c64910a26edf522cd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0705591edacc3ac4d4ac91723a4f55d7af29ef6694d0a991cf5dda8760da5fe1",
+				"dweb:/ipfs/QmTkvjdB7RJpQiuoNk4GpW7ZtdYTY6aDF9FAB17C2qvyMY"
 			]
 		},
 		"contracts/TokenizedAssetManagement.sol": {
-			"keccak256": "0x9bfdb2d5598e69e67fd3e25fe32ee4b1efc57f75b0d2676e32b3b7f21ca0631b",
+			"keccak256": "0xa860c5bc5f3e97c557f56d62cca16d4f55679b2df256ee698ad33d3ad919e842",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9cdeacb88a91c9be3924bf8f5eae32534fc49e6fb1d11368781e5891a55ff21f",
-				"dweb:/ipfs/QmTc9Tiz2pbBeVaTStfoMVea4pGeRJWR68WGpfFjTwJuNF"
+				"bzz-raw://bf958cb6c3479504b77ad310246a92027ecd3c776de5aa3639ef350c7d093c41",
+				"dweb:/ipfs/QmeFcrWzSpPxZ5WWgKvt232RDa1ahbnoUwELQYbCf3NzGx"
 			]
 		}
 	},

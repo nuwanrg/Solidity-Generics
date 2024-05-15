@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.25+commit.b61c2a91"
+		"version": "0.8.20+commit.a1b79de6"
 	},
 	"language": "Solidity",
 	"output": {
@@ -24,7 +24,7 @@
 					},
 					{
 						"internalType": "address",
-						"name": "minter",
+						"name": "admin",
 						"type": "address"
 					}
 				],
@@ -544,6 +544,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "totalMinted",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "totalSupply",
 				"outputs": [
 					{
@@ -751,7 +764,7 @@
 		"compilationTarget": {
 			"contracts/AssetToken.sol": "AssetToken"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -836,11 +849,11 @@
 			]
 		},
 		"contracts/AssetToken.sol": {
-			"keccak256": "0x218a9a0b5a079c8e243f8213ca012928ddb5a5b7441f3a078eb37fea2a3644ad",
+			"keccak256": "0x6efe9a968d5ae7482f8dffdca33352d9128eb4921417c28c64910a26edf522cd",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e4d76c9e1a6db61b5fa86fafd45beff33bda283d837a4c2f40cff2ae16c1b7ae",
-				"dweb:/ipfs/QmPYc7282WHurqfYCJeKYFo9eevH2dBCH4aqHhKueimKVL"
+				"bzz-raw://0705591edacc3ac4d4ac91723a4f55d7af29ef6694d0a991cf5dda8760da5fe1",
+				"dweb:/ipfs/QmTkvjdB7RJpQiuoNk4GpW7ZtdYTY6aDF9FAB17C2qvyMY"
 			]
 		}
 	},
